@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="container flex-menu">
+      <a id="logo" href="index.html"><img src="./svg/logo.svg" alt="logo-codenand"></a>
+      <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <span id="hamburguer"></span>
+        </button>
+        <ul id="menu">
+          <li class="font-1-d cinza-2"><a href="#projetos" class="interno">Projetos</a></li>
+          <li class="font-1-d cinza-2"><a href="#sobre" class="interno">Sobre mim</a></li>
+          <li class="font-1-d cinza-2"><a href="#formacao" class="interno">Formação</a></li>
+          <li class="rede">
+            <div class="redes-sociais">
+              <a href="https://github.com/Weryclison"><img src="./svg/github.svg" alt=""></a>
+              <a href="https://www.linkedin.com/in/weryclison-nandi/"><img src="./svg/linkedIn.svg" alt=""></a>
+              <a href="#"><img src="./svg/whatsap.svg" alt=""></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/5548996561838" class="botao">Contato</a>
+    </div>
+  </header>
+  <section class="inicio container">
+    <div class="inicio-conteudo">
+      <h1 class="font-1-a cinza-2">Desenvolvedor Front end & Ui designer.</h1>
+      <p class="font-1-d cinza-3">Olá, meu nome é Weryclison Nandi. Um desenvolvedor front-end e Ui designer em Santa Catarina. </p>
+      <a href="#projetos" class="botao">Veja projetos</a>
+      <div class="links">
+        <a class="font-1-d cinza-2" href="#">Github</a>
+        <p class="font-1-d cinza-2">|</p>
+        <a class="font-1-d cinza-2" href="#">LinkedIn</a>
+      </div>
+    </div>
+    <div class="inicio-imagem">
+      <img src="./svg/foto-inicio.jpg" alt="Foto Weryclison">
+    </div>
+  </section>
+  <section class="skills container">
+    <h2 class="font-1-a cinza-1">Hard skills</h2>
+    <div class="caixa-skill">
+      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M135.82 6.97266C135.258 6.35156 134.449 6 133.606 6H16.3946C15.5509 6 14.7423 6.35156 14.1798 6.97266C13.6055 7.59375 13.3243 8.42578 13.4063 9.26953L23.9649 127.547C24.0704 128.789 24.9376 129.82 26.1329 130.172L74.168 143.883C74.4259 143.965 74.7071 144 74.9884 144C75.2696 144 75.5391 143.965 75.8087 143.883L123.879 130.172C125.074 129.82 125.93 128.789 126.047 127.547L136.594 9.26953C136.676 8.42578 136.395 7.59375 135.82 6.97266ZM110.543 47.7539H54.1055L55.4532 63.0234H109.184L105.152 108.152L74.9766 117.27L74.6837 117.176L44.8595 108.141L43.2305 89.7539H57.8438L58.4766 96.8906L75.1524 100.383L91.5235 96.8906L93.2696 77.5781H42.1407L38.168 33.1641H111.844L110.543 47.7539Z" fill="#BACBD9" />
+      </svg>
+      <p class="font-1-c cinza-5">HTML</p>
+    </div>
+    <div class="caixa-skill">
+      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M135.42 12.06L124.89 131.4L75.7501 145.44L26.6101 131.4L16.0801 12.06H135.42ZM46.9708 89.28H61.0108L61.3536 98.055L75.7501 102.964L90.1466 98.055L91.1886 82.26H60.3116L59.5986 68.22H91.9016L92.9436 54.18H44.5166L43.4608 40.14H107.697L105.942 68.22L103.474 108.585L75.7501 117.716L48.0266 108.585L46.9708 89.28Z" fill="#BACBD9" />
+      </svg>
+
+      <p class="font-1-c cinza-5">CSS</p>
+    </div>
+    <div class="caixa-skill">
+      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M130.008 12H20.0039C15.5859 12 12 15.5859 12 20.0039V129.996C12 134.414 15.5859 138 20.0039 138H129.996C134.414 138 138 134.414 138 130.008V20.0039C138 15.5859 134.414 12 130.008 12ZM81 108.551C81 120.539 73.9688 126 63.7031 126C54.4219 126 47.7305 119.777 45 114L54.4336 108.293C56.25 111.516 59.0156 114 63 114C66.8086 114 69 112.512 69 106.723V69H81V108.551ZM107.027 126C96.3984 126 90.3633 120.645 87 114L96 108C98.4492 112.008 101.121 115.84 106.77 115.84C111.516 115.84 114 113.473 114 110.191C114 106.277 111.422 104.883 106.207 102.598L103.348 101.367C95.0859 97.8516 89.5898 93.4453 89.5898 84.1172C89.5898 75.5391 96.1406 69 106.359 69C113.637 69 118.863 71.5312 122.637 78.1641L113.73 83.8945C111.762 80.3672 109.652 78.9844 106.359 78.9844C103.008 78.9844 100.887 81.1172 100.887 83.8945C100.887 87.3281 103.008 88.7109 107.918 90.8438L110.777 92.0742C120.516 96.2344 126 100.488 126 110.051C126 120.352 117.902 126 107.027 126Z" fill="#BACBD9" />
+      </svg>
+
+      <p class="font-1-c cinza-5">Javascript</p>
+    </div>
+    <div class="caixa-skill">
+      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M145.057 119.642H93.6478C92.5398 119.642 91.4319 120.75 91.4319 121.858V127.398H61.2955V121.858C61.2955 120.75 60.1875 119.642 59.0796 119.642H7.6705C6.56254 119.642 5.45459 120.75 5.45459 121.858C5.45459 132.494 13.875 141.136 24.2898 141.136H128.438C133.534 141.136 138.188 139.142 141.733 135.375C145.278 131.608 147.273 126.955 147.273 121.858C147.273 120.528 146.165 119.642 145.057 119.642Z" fill="#BACBD9" />
+        <path d="M12.1024 115.21H140.625C141.955 115.21 142.841 114.324 142.841 112.994V16.6023C142.841 11.9489 139.074 8.18182 134.421 8.18182H18.3069C13.6535 8.18182 9.88647 11.9489 9.88647 16.6023V112.994C9.88647 114.102 10.9944 115.21 12.1024 115.21ZM14.3183 16.6023C14.3183 14.3864 16.091 12.6136 18.3069 12.6136H134.421C136.636 12.6136 138.409 14.3864 138.409 16.6023V110.778H14.3183V16.6023Z" fill="#BACBD9" />
+        <path d="M130.21 19.483H22.5172C21.1876 19.483 20.3013 20.5909 20.3013 21.6989V101.472C20.3013 102.58 21.1876 103.688 22.5172 103.688H130.21C131.54 103.688 132.426 102.58 132.426 101.472V21.6989C132.426 20.5909 131.318 19.483 130.21 19.483ZM84.5626 38.983H110.71C112.04 38.983 112.926 39.8693 112.926 41.1989C112.926 42.5284 112.04 43.4148 110.71 43.4148H84.5626C83.2331 43.4148 82.3467 42.5284 82.3467 41.1989C82.3467 39.8693 83.2331 38.983 84.5626 38.983ZM84.5626 51.6137H110.71C112.04 51.6137 112.926 52.5 112.926 53.8296C112.926 55.1591 112.04 56.0455 110.71 56.0455H84.5626C83.2331 56.0455 82.3467 55.1591 82.3467 53.8296C82.3467 52.5 83.2331 51.6137 84.5626 51.6137ZM34.0399 32.5568C34.0399 31.2273 34.9263 30.3409 36.2558 30.3409H63.9547C65.2842 30.3409 66.1706 31.2273 66.1706 32.5568V56.0455C66.1706 57.375 65.2842 58.2614 63.9547 58.2614H36.2558C34.9263 58.2614 34.0399 57.375 34.0399 56.0455V32.5568ZM36.2558 64.2443H113.148C114.477 64.2443 115.364 65.1307 115.364 66.4602C115.364 67.7898 114.477 68.6761 113.148 68.6761H36.2558C34.9263 68.6761 34.0399 67.7898 34.0399 66.4602C34.0399 65.1307 35.1479 64.2443 36.2558 64.2443ZM81.9035 81.5284H36.2558C34.9263 81.5284 34.0399 80.6421 34.0399 79.3125C34.0399 77.983 34.9263 77.0966 36.2558 77.0966H81.682C83.0115 77.0966 83.8979 77.983 83.8979 79.3125C83.8979 80.6421 83.0115 81.5284 81.9035 81.5284ZM118.244 87.0682L114.256 92.3864C113.591 93.0512 112.705 93.2727 111.818 92.8296L104.949 87.5114L103.176 89.9489C102.29 91.0568 100.517 90.8352 100.074 89.5057L96.307 76.6534C96.0854 75.5455 96.7501 74.4375 98.0797 74.4375L111.597 74.6591C112.926 74.6591 113.813 76.2102 112.926 77.5398L111.154 79.9773L118.023 85.2955C118.688 85.2955 118.909 86.4034 118.244 87.0682Z" fill="#BACBD9" />
+        <path d="M61.7387 34.7727H38.4717V53.8295H61.7387V34.7727Z" fill="#BACBD9" />
+      </svg>
+
+      <p class="font-1-c cinza-5">Ui design</p>
+    </div>
+    <div class="caixa-skill">
+      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M120 15H30C21.732 15 15 21.726 15 30V51H135V30C135 21.726 128.268 15 120 15ZM48 39H36C34.344 39 33 37.656 33 36C33 34.344 34.344 33 36 33H48C49.656 33 51 34.344 51 36C51 37.656 49.656 39 48 39ZM72 39H60C58.344 39 57 37.656 57 36C57 34.344 58.344 33 60 33H72C73.656 33 75 34.344 75 36C75 37.656 73.656 39 72 39Z" fill="#BACBD9" />
+        <path d="M66 99C70.9706 99 75 94.9706 75 90C75 85.0294 70.9706 81 66 81C61.0294 81 57 85.0294 57 90C57 94.9706 61.0294 99 66 99Z" fill="#BACBD9" />
+        <path d="M15 120C15 128.274 21.732 135 30 135H120C128.268 135 135 128.274 135 120V57H15V120ZM66 75C74.268 75 81 81.726 81 90C81 93.054 80.076 95.886 78.498 98.262L95.118 114.882C96.288 116.052 96.288 117.954 95.118 119.124C94.536 119.706 93.768 120 93 120C92.232 120 91.464 119.706 90.876 119.124L74.256 102.504C71.886 104.076 69.054 105 66 105C57.732 105 51 98.274 51 90C51 81.726 57.732 75 66 75Z" fill="#BACBD9" />
+      </svg>
+
+      <p class="font-1-c cinza-5">Ux heurísticas</p>
+    </div>
+    <div class="caixa-skill">
+      <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M75 6V48H54C42.435 48 33 38.565 33 27C33 15.435 42.435 6 54 6H75ZM75 54V96H54C42.435 96 33 86.565 33 75C33 63.435 42.435 54 54 54H75ZM75 102V123C75 134.565 65.565 144 54 144C42.435 144 33 134.565 33 123C33 111.435 42.435 102 54 102H75ZM123 27C123 38.565 113.565 48 102 48H81V6H102C113.565 6 123 15.435 123 27ZM102 54C96.4305 54 91.089 56.2125 87.1508 60.1508C83.2125 64.089 81 69.4305 81 75C81 80.5695 83.2125 85.911 87.1508 89.8492C91.089 93.7875 96.4305 96 102 96C107.57 96 112.911 93.7875 116.849 89.8492C120.788 85.911 123 80.5695 123 75C123 69.4305 120.788 64.089 116.849 60.1508C112.911 56.2125 107.57 54 102 54Z" fill="#BACBD9" />
+      </svg>
+
+      <p class="font-1-c cinza-5">Figma</p>
+    </div>
+  </section>
+  <section class="projetos container" id="projetos">
+    <h2 class="font-1-a cinza-1">Meus projetos.</h2>
+    <div class="caixa-projeto">
+      <div class="caixa-projeto-img"><img src="./svg/landing page.jpg" alt="foto de uma landing page"></div>
+      <div class="caixa-projeto-conteudo">
+        <h3 class="font-1-b cinza-3">Landing page</h3>
+        <p class="font-1-d cinza-3">Tecnologias: HTML, CSS, Javascript, Git.</p>
+        <p class="font-1-d cinza-3">Neste projeto, criei uma landing page para a Dra Marina com uma interface simples e intuitiva onde seus clientes possam conhecer suas especialidades e marcar uma consulta enviando um formulário.</p>
+        <div class="projetos-links">
+          <div class="links">
+            <a href="#">
+              <p class="font-1-c cinza-3">Github</p>
+              <img src="./svg/setinha.svg" alt="">
+            </a>
+          </div>
+          <div class="links">
+            <a href="#">
+              <p class="font-1-c cinza-3">Veja online</p>
+              <img src="./svg/setinha.svg" alt="">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="caixa-projeto">
+
+      <div class="caixa-projeto-conteudo">
+        <h3 class="font-1-b cinza-3">Previsão do tempo</h3>
+        <p class="font-1-d cinza-3">Tecnologias: HTML, CSS, Javascript, Git, APIs.</p>
+        <p class="font-1-d cinza-3">Neste projeto, criei uma previsão do tempo onde posso ver algumas métricas do tempo na cidade que a pessoa pesquisar, puxando os dados via API da openWeather.</p>
+        <div class="projetos-links">
+          <div class="links">
+            <a href="#">
+              <p class="font-1-c cinza-3">Github</p>
+              <img src="./svg/setinha.svg" alt="">
+            </a>
+          </div>
+          <div class="links">
+            <a href="#">
+              <p class="font-1-c cinza-3">Veja online</p>
+              <img src="./svg/setinha.svg" alt="">
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="caixa-projeto-img"><img src="./svg/previsao.jpg" alt="foto de uma landing page"></div>
+    </div>
+    <div class="caixa-projeto">
+      <div class="caixa-projeto-img"><img src="./svg/institucional.jpg" alt="foto de um site institucional"></div>
+      <div class="caixa-projeto-conteudo">
+        <h3 class="font-1-b cinza-3">Site Institucional</h3>
+        <p class="font-1-d cinza-3">Tecnologias: HTML, CSS, Javascript, Git, PHP.</p>
+        <p class="font-1-d cinza-3">Neste projeto, criei um site institucional pessoal, nele tenho mais informações sobre mim para meus clientes (atuo como freelancer) e onde também há mais projetos que criei com foco comercial.</p>
+        <div class="projetos-links">
+          <div class="links">
+            <a href="#">
+              <p class="font-1-c cinza-3">Github</p>
+              <img src="./svg/setinha.svg" alt="">
+            </a>
+          </div>
+          <div class="links">
+            <a href="#">
+              <p class="font-1-c cinza-3">Veja online</p>
+              <img src="./svg/setinha.svg" alt="">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="coach container">
+    <h2 class="font-1-b cinza-5">
+      Com paixão, traga inovação e qualidade, enquanto a persistência for a chave do sucesso, não desista.
+    </h2>
+    <p class="font-1-c cinza-5">-Weryclison</p>
+  </div>
+  <section class="sobre container" id="sobre">
+    <div class="sobre-conteudo">
+      <h2 class="font-1-a cinza-1">Sobre mim.</h2>
+      <p class="font-1-d cinza-3">Olá! Eu me chamo Weryclison Nandi e minha paixão é o Desenvolvimento Web. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Univinte Fucap.</p>
+      <p class="font-1-d cinza-3">Como desenvolvedor Front End, tenho experiência em todas as etapas do desenvolvimento de sites, desde a pesquisa de mercado até a codificação final.</p>
+      <p class="font-1-d cinza-3">Trabalhando como freelancer desde Dezembro de 2023, utilizo uma sólida base em HTML, CSS e Javascript, sempre em busca de aprimoramento contínuo para melhorar minhas habilidades.</p>
+    </div>
+    <div class="soft">
+      <h2 class="font-1-a cinza-1">Soft skills.</h2>
+      <ul>
+        <li class="font-1-d cinza-3">
+          <img src="./svg/tracinho-soft.svg" alt="tracinho">
+          Aprendizagem ativa
+        </li>
+        <li class="font-1-d cinza-3">
+          <img src="./svg/tracinho-soft.svg" alt="tracinho">
+          Resolução de problemas
+        </li>
+        <li class="font-1-d cinza-3">
+          <img src="./svg/tracinho-soft.svg" alt="tracinho">
+          Comunicativo
+        </li>
+        <li class="font-1-d cinza-3">
+          <img src="./svg/tracinho-soft.svg" alt="tracinho">
+          Liderença e influencia social
+        </li>
+        <li class="font-1-d cinza-3">
+          <img src="./svg/tracinho-soft.svg" alt="tracinho">
+          Ótimo relacionamento interpessoal
+        </li>
+        <li class="font-1-d cinza-3">
+          <img src="./svg/tracinho-soft.svg" alt="tracinho">
+          Pensamento analítico
+        </li>
+
+      </ul>
+    </div>
+  </section>
+  <section class="formacao container" id="formacao">
+    <h2 class="font-1-a cinza-1">Formação</h2>
+    <div class="formacao-caixa">
+      <h3 class="font-1-b cinza-3">
+        <img src="./svg/quadrado-formacao.svg" alt="">
+        HTML e CSS
+      </h3>
+      <p class="font-1-d cinza-3">Carga horária: 46h</p>
+      <p class="font-1-d cinza-3">Online</p>
+      <p class="font-1-d cinza-3">Origamid</p>
+    </div>
+    <div class="formacao-caixa">
+      <h3 class="font-1-b cinza-3">
+        <img src="./svg/quadrado-formacao.svg" alt="">
+        Ui design
+      </h3>
+      <p class="font-1-d cinza-3">Carga horária: 34h</p>
+      <p class="font-1-d cinza-3">Online</p>
+      <p class="font-1-d cinza-3">Origamid</p>
+    </div>
+    <div class="formacao-caixa">
+      <h3 class="font-1-b cinza-3">
+        <img src="./svg/quadrado-formacao.svg" alt="">
+        Ui design avançado
+      </h3>
+      <p class="font-1-d cinza-3">Carga horária: 30h</p>
+      <p class="font-1-d cinza-3">Online</p>
+      <p class="font-1-d cinza-3">Origamid</p>
+    </div>
+    <div class="formacao-caixa">
+      <h3 class="font-1-b cinza-3">
+        <img src="./svg/quadrado-formacao.svg" alt="">
+        UX Design heurísticas
+      </h3>
+      <p class="font-1-d cinza-3">Carga horária: 16h</p>
+      <p class="font-1-d cinza-3">Online</p>
+      <p class="font-1-d cinza-3">Origamid</p>
+    </div>
+    <div class="formacao-caixa">
+      <h3 class="font-1-b cinza-3">
+        <img src="./svg/quadrado-formacao.svg" alt="">
+        Wordpress como CMS
+      </h3>
+      <p class="font-1-d cinza-3">Carga horária: 18h</p>
+      <p class="font-1-d cinza-3">Online</p>
+      <p class="font-1-d cinza-3">Origamid</p>
+    </div>
+    <div class="formacao-caixa">
+      <h3 class="font-1-b cinza-3">
+        <img src="./svg/quadrado-formacao.svg" alt="">
+        Gestão Administrativa
+      </h3>
+      <p class="font-1-d cinza-3">Carga horária: 72h</p>
+      <p class="font-1-d cinza-3">Presencial</p>
+      <p class="font-1-d cinza-3">Unialcance</p>
+    </div>
+  </section>
+  <footer class="footer container">
+    <img src="./svg/logo.svg" alt="">
+    <p class="font-1-d cinza-3">Weryclison. Todos os direitos reservados.</p>
+    <div class="footer-redes">
+      <a href="https://github.com/Weryclison">
+        <img src="./svg/github.svg" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/weryclison-nandi/">
+        <img src="./svg/linkedIn.svg" alt="">
+      </a>
+      <a href="#">
+        <img src="./svg/whatsap.svg" alt="">
+      </a>
+    </div>
+  </footer>
+  <script src="./js/menu-mobile.js"></script>
+  <script src="./js/scroll-suave.js"></script>
+</body>
+
+</html>

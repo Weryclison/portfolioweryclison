@@ -1,0 +1,32 @@
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 80px;
+}
+.skills h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  grid-column: 1/-1;
+}
+
+.caixa-skill {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+.caixa-skill p {
+  margin-top: 12px;
+}
+.skills svg:hover path {
+  fill: var(--cinza-2);
+}
+@media (max-width: 950px) {
+  .skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 320px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}
