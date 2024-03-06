@@ -1,6 +1,6 @@
 #header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-bottom: 2px solid var(--cinza-1);
   position: fixed;
   width: 100%;
@@ -22,7 +22,7 @@
   transition: color 0.3s;
 }
 #menu li:hover {
-  color: var(--azul-1);
+  border-bottom: 2px solid var(--cinza-1);
 }
 
 #btn-mobile {
@@ -55,7 +55,8 @@
   display: flex;
   gap: 20px;
   position: absolute;
-  bottom: 200px;
+
+  margin-top: 50px;
 }
 #nav.active .rede {
   display: block;
